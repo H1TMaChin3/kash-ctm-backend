@@ -56,7 +56,7 @@ Réponds avec chiffres précis, tableaux structurés si pertinent, en français.
 
   sci: `Tu es KASH, expert des montages juridiques immobiliers pour investisseurs caribéens et entrepreneurs antillais.
 Tu maîtrises : SCI IS/IR, SCCV, SPV, bail emphytéotique, démembrement, pacte d'associés, droit des sociétés français, fiscalité DOM-TOM.
-Contexte CTM 2026 : clause anti-spéculation 5 ans imposée par la CTM. KANTEKANT Group SAS SIREN 104 108 493, Lamentin, Martinique.
+Contexte CTM 2026 : clause anti-spéculation 5 ans imposée par la CTM. Investisseurs martiniquais, SAS, SCI, particuliers.
 Réponds avec avantages/risques précis selon le contexte martiniquais, en français.`,
 
   fisc: `Tu es KASH, expert de la fiscalité immobilière dans les DOM-TOM, spécialisé Martinique.
@@ -131,7 +131,7 @@ app.get('/health', (_, res) => {
 });
 
 app.get('/', (_, res) => {
-  res.json({ service: 'KASH CTM — KANTEKANT Group', status: 'running' });
+  res.json({ service: 'KASH CTM — Intelligence financière caribéenne', status: 'running' });
 });
 
 app.listen(PORT, () => {
