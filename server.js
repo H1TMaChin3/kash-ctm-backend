@@ -9,6 +9,8 @@ const PORT = process.env.PORT || 3000;
 const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
 const ALLOWED_ORIGINS = [
+  'https://kash-martinique.com',
+  'https://www.kash-martinique.com',
   'https://kash-ktk.netlify.app',
   'https://kash-ctm.netlify.app',
   'https://kash-martinique.netlify.app',
